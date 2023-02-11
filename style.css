@@ -1,0 +1,124 @@
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  }
+  
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    
+    body {
+      
+      color: white;
+      height: 100vh;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    
+      padding: 48px;
+    
+      width: 100%;
+    }
+   
+    h1{
+      padding: 12px;
+    }
+    h2{
+  padding: 12px 24px 12px 24px;
+    border: 5px 12px solid #cb1212;
+    align-items: center;
+    box-sizing: content-box;
+    }
+   .efeito-1 {
+  background: #ff000096;
+  border: none;
+  transition: all 400ms ease;
+  padding: 20px;
+  margin: 10px;
+  font-size: 24px;
+  line-height: 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+   } 
+   .efeito-1:hover {
+    animation: bounce 1s;
+     }
+     .efeito-2 {
+      background: #ff000096;
+      border: none;
+      transition: all 400ms ease;
+      padding: 10px;
+      margin: 5px;
+      font-size: 20px;
+      line-height: 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      box-sizing: border-box;
+       }
+       .efeito-2:hover {
+        animation: bounce 1s;
+         }
+     .container {
+      text-align: center;
+      padding: 20px;
+      height: 100vh;
+    }
+  
+    
+    table {
+      border: 2px solid #ff0000;
+      border-collapse: collapse;
+    }
+    
+    h1 {
+      color: white;
+    }
+    
+    th,
+    tr,
+    td {
+      border: solid 3px #cb1212;
+      color: white;
+    }
+    
+    button {
+      background-color: #002351;
+      color: #f6f6f6;
+    }
+    p{
+      color: rgba(223, 8, 8, 0.834);
+     
+    }
+  
+    h2{
+      border: solid red;
+    
+    }
+  
+         #campoNomeJogador{
+          width: 25%;
+          font-size: 17px;
+         }
+  
+         @media (max-width: 570px) {
+          button div {
+            display: none;
+          }
+        }
